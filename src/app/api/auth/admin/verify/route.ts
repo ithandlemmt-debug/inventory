@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getAdminAuthUser } from '@/lib/auth'
+import { getAuthUser } from '@/lib/auth'
 import { prisma } from '@/lib/prisma'
 
 export async function GET(request: NextRequest) {
   try {
-    const authUser = getAdminAuthUser(request)
+    const authUser = getAuthUser(request)
 
     if (!authUser) {
       return NextResponse.json({ error: 'No valid admin session found' }, { status: 401 })

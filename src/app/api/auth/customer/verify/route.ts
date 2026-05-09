@@ -1,16 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getCustomerAuthUser } from '@/lib/auth'
+import { getAuthUser } from '@/lib/auth'
 import { prisma } from '@/lib/prisma'
 
 export async function GET(request: NextRequest) {
   try {
-    const authUser = getCustomerAuthUser(request)
+    const authUser = getAuthUser(request)
 
     if (!authUser) {
       return NextResponse.json({ error: 'No valid customer session found' }, { status: 401 })
     }
 
-    const customerId = authUser.customerId || authUser.userId
+    const customerId = authUser.userId
 
     const customer = await prisma.customer.findUnique({
       where: { id: customerId },

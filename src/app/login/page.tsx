@@ -46,7 +46,8 @@ export default function LoginPage() {
                 <img
                   src="/logo1.png"
                   alt="Maheshwari Marble"
-                  className="logo h-16 w-auto object-contain mx-auto transition-transform duration-500"
+                  className="h-16 w-auto object-contain mx-auto transition-transform duration-500"
+
                   onError={(e) => {
                     e.currentTarget.style.display = 'none'
                   }}

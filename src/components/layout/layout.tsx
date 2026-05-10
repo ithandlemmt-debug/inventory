@@ -294,8 +294,9 @@ export default function Layout({ children }: LayoutProps) {
                 <div className="relative p-1.5 rounded-lg bg-background/50 border border-border/30 group-hover:border-primary/30 transition-all duration-300">
                   <img
                     src="/logo1.png"
-alt="Maheshwari Marble"
-                    className="logo h-7 w-auto sm:h-8 object-contain transition-transform duration-300 group-hover:scale-105"
+                    alt="Maheshwari Marble"
+                    className="h-7 w-auto sm:h-8 object-contain transition-transform duration-300 group-hover:scale-105"
+
                     onError={(e) => {
                       console.error('Header logo failed to load')
                       e.currentTarget.style.display = 'none'

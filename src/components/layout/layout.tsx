@@ -291,17 +291,16 @@ export default function Layout({ children }: LayoutProps) {
               
               {/* Logo */}
               <div className="flex items-center group cursor-pointer" onClick={() => router.push('/')}>
-                <div className="relative">
+                <div className="relative p-1.5 rounded-lg bg-background/50 border border-border/30 group-hover:border-primary/30 transition-all duration-300">
                   <img
                     src="/logo1.png"
-                    alt="Maheshari Marble"
-                    className="logo h-8 sm:h-10 object-contain rounded-xl transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3 group-hover:shadow-primary/20"
+alt="Maheshwari Marble"
+                    className="logo h-7 w-auto sm:h-8 object-contain transition-transform duration-300 group-hover:scale-105"
                     onError={(e) => {
                       console.error('Header logo failed to load')
                       e.currentTarget.style.display = 'none'
                     }}
                   />
-                  <div className="absolute inset-0 rounded-xl bg-primary/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 </div>
               </div>
             </div>
@@ -453,7 +452,7 @@ export default function Layout({ children }: LayoutProps) {
               
               {/* Footer - Sticky at bottom */}
               <footer className="bg-card border-t border-border px-3 sm:px-4 md:px-6 lg:px-8 py-3 flex items-center justify-between text-xs text-muted-foreground mt-auto">
-                <span>© 2026 Maheshari Marble. All rights reserved.</span>
+© 2026 Maheshwari Marble. All rights reserved.
                 <span className="flex items-center gap-1">
                   Developed with <span className="text-destructive">♥</span> by <span className="font-bold text-primary">Tech Rover</span>
                 </span>

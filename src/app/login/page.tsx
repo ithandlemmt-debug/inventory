@@ -38,25 +38,26 @@ export default function LoginPage() {
       <div className="absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary/5 blur-[120px] rounded-full animate-pulse delay-700" />
 
       <div className="w-full max-w-md relative z-10 animate-in fade-in zoom-in-95 duration-1000">
-        <Card className="shadow-premium border-border/50 bg-card/60 backdrop-blur-xl rounded-[2.5rem]">
-          <CardHeader className="text-center pb-8 pt-10">
-            <div className="flex justify-center mb-8">
-              <div className="relative rounded-[2rem] p-5 shadow-premium bg-background border border-border/50 group hover:border-primary/30 transition-all duration-500">
+        <div className="shadow-premium border-border/50 bg-card/60 backdrop-blur-xl rounded-[2.5rem] w-full">
+          <div className="text-center pb-8 pt-10">
+            <div className="flex justify-center mb-6">
+              {/* Direct logo (no card/crad wrapper) */}
+              <div className="relative">
                 <img
                   src="/logo1.png"
-                  alt="Maheshari Marble"
-                  className="logo h-20 object-contain mx-auto transition-transform duration-500 group-hover:scale-110"
+                  alt="Maheshwari Marble"
+                  className="logo h-16 w-auto object-contain mx-auto transition-transform duration-500"
                   onError={(e) => {
                     e.currentTarget.style.display = 'none'
                   }}
                 />
               </div>
             </div>
-            <h1 className="text-3xl font-black bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60 tracking-tight mb-2">Maheshari Marble</h1>
+            <h1 className="text-3xl font-black bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60 tracking-tight mb-2">Maheshwari Marble</h1>
             <p className="text-muted-foreground font-medium">Elevating your marble inventory management</p>
-          </CardHeader>
+          </div>
 
-          <CardContent className="px-8 pb-8">
+          <div className="px-8 pb-8">
             <form onSubmit={handleSubmit} className="space-y-6">
               {error && (
                 <div className="bg-destructive/10 border border-destructive/30 text-destructive px-4 py-3 rounded-lg text-sm flex items-center gap-2">
@@ -120,11 +121,11 @@ export default function LoginPage() {
                 )}
               </Button>
             </form>
-          </CardContent>
-        </Card>
+          </div>
+        </div>
 
         <div className="text-center mt-6">
-          <p className="text-sm text-muted-foreground">© 2026 Maheshari Marble</p>
+<p className="text-sm text-muted-foreground">© 2026 Maheshwari Marble</p>
         </div>
       </div>
       <AuthDebug />

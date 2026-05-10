@@ -45,7 +45,7 @@ export default function LoginPage() {
                 <img
                   src="/mmt_logo.jpeg"
                   alt="Company Logo"
-                  className="h-20 w-auto object-contain mx-auto transition-transform duration-500 group-hover:scale-110"
+                  className="logo h-20 object-contain mx-auto transition-transform duration-500 group-hover:scale-110"
                   onError={(e) => {
                     e.currentTarget.style.display = 'none'
                   }}

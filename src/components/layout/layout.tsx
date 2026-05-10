@@ -295,7 +295,7 @@ export default function Layout({ children }: LayoutProps) {
                   <img
                     src="/mmt_logo.jpeg"
                     alt="Logo"
-                    className="h-8 sm:h-10 w-auto object-contain rounded-xl transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3 shadow-lg group-hover:shadow-primary/20"
+                    className="logo h-8 sm:h-10 object-contain rounded-xl transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3 shadow-lg group-hover:shadow-primary/20"
                     onError={(e) => {
                       console.error('Header logo failed to load')
                       e.currentTarget.style.display = 'none'

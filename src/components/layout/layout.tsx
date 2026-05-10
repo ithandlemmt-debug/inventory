@@ -293,9 +293,9 @@ export default function Layout({ children }: LayoutProps) {
               <div className="flex items-center group cursor-pointer" onClick={() => router.push('/')}>
                 <div className="relative">
                   <img
-                    src="/mmt_logo.jpeg"
-                    alt="Logo"
-                    className="logo h-8 sm:h-10 object-contain rounded-xl transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3 shadow-lg group-hover:shadow-primary/20"
+                    src="/mmt_logo_transparent.png"
+                    alt="Maheshari Marble"
+                    className="logo h-8 sm:h-10 object-contain rounded-xl transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3 group-hover:shadow-primary/20"
                     onError={(e) => {
                       console.error('Header logo failed to load')
                       e.currentTarget.style.display = 'none'
@@ -453,7 +453,7 @@ export default function Layout({ children }: LayoutProps) {
               
               {/* Footer - Sticky at bottom */}
               <footer className="bg-card border-t border-border px-3 sm:px-4 md:px-6 lg:px-8 py-3 flex items-center justify-between text-xs text-muted-foreground mt-auto">
-                <span>© 2026 Tiles Inventory Management System. All rights reserved.</span>
+                <span>© 2026 Maheshari Marble. All rights reserved.</span>
                 <span className="flex items-center gap-1">
                   Developed with <span className="text-destructive">♥</span> by <span className="font-bold text-primary">Tech Rover</span>
                 </span>

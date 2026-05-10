@@ -66,7 +66,7 @@ export function exportToExcel({
   columns,
   data,
   includeTimestamp = true,
-  companyName = 'Tiles Inventory Management System',
+  companyName = 'Maheshari Marble',
   reportTitle = 'Data Export Report',
   headerColor,
 }: ExportOptions) {

@@ -85,7 +85,7 @@ export default function Dashboard() {
       const doc = new jsPDF()
       
       try {
-        const logoUrl = encodeURI('/mmt_logo.jpeg')
+        const logoUrl = encodeURI('/mmt_logo_transparent.png')
         const img = new Image()
         img.src = logoUrl
         await new Promise((resolve, reject) => {
@@ -100,7 +100,7 @@ export default function Dashboard() {
       // Title
       doc.setFontSize(22)
       doc.setTextColor(40, 40, 40)
-      doc.text("House of Tiles", 60, 20)
+      doc.text("Maheshari Marble", 60, 20)
       
       doc.setFontSize(14)
       doc.setTextColor(100, 100, 100)
@@ -183,7 +183,7 @@ export default function Dashboard() {
         doc.setFontSize(8)
         doc.setTextColor(150, 150, 150)
         doc.text(
-          `Page ${i} of ${pageCount} - House of Tiles Internal Document`,
+          `Page ${i} of ${pageCount} - Maheshari Marble Internal Document`,
           14,
           doc.internal.pageSize.height - 10
         )

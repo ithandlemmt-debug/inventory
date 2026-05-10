@@ -209,7 +209,7 @@ export default function WebsitePage() {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <h1 className="text-2xl font-bold text-primary">House of Tiles</h1>
+              <h1 className="text-2xl font-bold text-primary">Maheshari Marble</h1>
               <Badge variant="secondary" className="hidden md:flex">
                 Premium Tiles Collection
               </Badge>
@@ -489,7 +489,7 @@ export default function WebsitePage() {
             className="text-center mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why Choose House of Tiles?
+              Why Choose Maheshari Marble?
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               We're committed to providing the highest quality tiles and exceptional service
@@ -917,7 +917,7 @@ export default function WebsitePage() {
               {
                 name: "Priya Sharma",
                 role: "Interior Designer",
-                content: "House of Tiles has been our go-to supplier for all projects. Their collection is unmatched and delivery is always on time.",
+                content: "Maheshari Marble has been our go-to supplier for all projects. Their collection is unmatched and delivery is always on time.",
                 rating: 5
               },
               {
@@ -987,7 +987,7 @@ export default function WebsitePage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div className="md:col-span-2">
-              <h3 className="text-2xl font-bold mb-4 text-primary">House of Tiles</h3>
+              <h3 className="text-2xl font-bold mb-4 text-primary">Maheshari Marble</h3>
               <p className="text-muted-foreground mb-6 max-w-md">
                 Your trusted partner for premium tiles and flooring solutions. 
                 We bring quality, style, and durability to every project.
@@ -1049,7 +1049,7 @@ export default function WebsitePage() {
           <div className="border-t border-border pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="text-sm text-muted-foreground">
-                <p>&copy; 2024 House of Tiles. All rights reserved.</p>
+                <p>&copy; 2024 Maheshari Marble. All rights reserved.</p>
               </div>
               <div className="flex items-center gap-6 text-sm">
                 <Link href="#" className="text-muted-foreground hover:text-primary transition-colors">

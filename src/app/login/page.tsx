@@ -43,8 +43,8 @@ export default function LoginPage() {
             <div className="flex justify-center mb-8">
               <div className="relative rounded-[2rem] p-5 shadow-premium bg-background border border-border/50 group hover:border-primary/30 transition-all duration-500">
                 <img
-                  src="/mmt_logo.jpeg"
-                  alt="Company Logo"
+                  src="/mmt_logo_transparent.png"
+                  alt="Maheshari Marble"
                   className="logo h-20 object-contain mx-auto transition-transform duration-500 group-hover:scale-110"
                   onError={(e) => {
                     e.currentTarget.style.display = 'none'
@@ -52,8 +52,8 @@ export default function LoginPage() {
                 />
               </div>
             </div>
-            <h1 className="text-3xl font-black bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60 tracking-tight mb-2">Welcome House of Tiles</h1>
-            <p className="text-muted-foreground font-medium">Elevating your tile inventory management</p>
+            <h1 className="text-3xl font-black bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60 tracking-tight mb-2">Maheshari Marble</h1>
+            <p className="text-muted-foreground font-medium">Elevating your marble inventory management</p>
           </CardHeader>
 
           <CardContent className="px-8 pb-8">
@@ -124,7 +124,7 @@ export default function LoginPage() {
         </Card>
 
         <div className="text-center mt-6">
-          <p className="text-sm text-muted-foreground">© 2026 Tiles Inventory Management System</p>
+          <p className="text-sm text-muted-foreground">© 2026 Maheshari Marble</p>
         </div>
       </div>
       <AuthDebug />

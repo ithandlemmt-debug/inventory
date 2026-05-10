@@ -6,12 +6,12 @@ import Layout from '@/components/layout/layout'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Tiles Inventory Management System',
-  description: 'Complete inventory management solution for tiles showroom',
+  title: 'Maheshari Marble',
+  description: 'Complete inventory management solution for Maheshari Marble',
   icons: {
-    icon: '/mmt_logo.jpeg',
-    shortcut: '/mmt_logo.jpeg',
-    apple: '/mmt_logo.jpeg',
+    icon: '/mmt_logo_transparent.png',
+    shortcut: '/mmt_logo_transparent.png',
+    apple: '/mmt_logo_transparent.png',
   },
 }
 

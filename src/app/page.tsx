@@ -85,7 +85,7 @@ export default function Dashboard() {
       const doc = new jsPDF()
       
       try {
-        const logoUrl = encodeURI('/mmt_logo_transparent.png')
+        const logoUrl = encodeURI('/logo1.png')
         const img = new Image()
         img.src = logoUrl
         await new Promise((resolve, reject) => {

@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   title: 'Maheshari Marble',
   description: 'Complete inventory management solution for Maheshari Marble',
   icons: {
-    icon: '/mmt_logo_transparent.png',
-    shortcut: '/mmt_logo_transparent.png',
-    apple: '/mmt_logo_transparent.png',
+    icon: '/logo1.png',
+    shortcut: '/logo1.png',
+    apple: '/logo1.png',
   },
 }
 

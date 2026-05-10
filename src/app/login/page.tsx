@@ -43,7 +43,7 @@ export default function LoginPage() {
             <div className="flex justify-center mb-8">
               <div className="relative rounded-[2rem] p-5 shadow-premium bg-background border border-border/50 group hover:border-primary/30 transition-all duration-500">
                 <img
-                  src="/mmt_logo_transparent.png"
+                  src="/logo1.png"
                   alt="Maheshari Marble"
                   className="logo h-20 object-contain mx-auto transition-transform duration-500 group-hover:scale-110"
                   onError={(e) => {

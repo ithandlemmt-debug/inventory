@@ -293,7 +293,7 @@ export default function Layout({ children }: LayoutProps) {
               <div className="flex items-center group cursor-pointer" onClick={() => router.push('/')}>
                 <div className="relative">
                   <img
-                    src="/mmt_logo_transparent.png"
+                    src="/logo1.png"
                     alt="Maheshari Marble"
                     className="logo h-8 sm:h-10 object-contain rounded-xl transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3 group-hover:shadow-primary/20"
                     onError={(e) => {

@@ -291,6 +291,7 @@ export default function Layout({ children }: LayoutProps) {
               
               {/* Logo */}
               <div className="flex items-center group cursor-pointer" onClick={() => router.push('/')}>
+
                 <div className="relative p-1.5 rounded-lg bg-background/50 border border-border/30 group-hover:border-primary/30 transition-all duration-300">
                   <img
                     src="/logo1.png"
@@ -304,6 +305,8 @@ export default function Layout({ children }: LayoutProps) {
                   />
                 </div>
               </div>
+
+
             </div>
 
             <div ref={searchBoxRef} className="hidden min-w-0 lg:flex justify-center px-3 xl:px-4">

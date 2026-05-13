@@ -39,22 +39,16 @@ export default function LoginPage() {
 
       <div className="w-full max-w-md relative z-10 animate-in fade-in zoom-in-95 duration-1000">
         <div className="shadow-premium border-border/50 bg-card/60 backdrop-blur-xl rounded-[2.5rem] w-full">
-          <div className="text-center pb-8 pt-10">
-            <div className="flex justify-center mb-6">
-              {/* Direct logo (no card/crad wrapper) */}
-              <div className="relative">
-                <img
-                  src="/logo1.png"
-                  alt="Maheshwari Marble"
-                  className="h-16 w-auto object-contain mx-auto transition-transform duration-500"
+          <div className="text-center pb-6 pt-8">
+            <img
+              src="/logo1.png"
+              alt="Maheshwari Marble"
+              className="h-16 w-auto object-contain mx-auto mb-4 transition-transform duration-500"
+              onError={(e) => { e.currentTarget.style.display = 'none' }}
+            />
 
-                  onError={(e) => {
-                    e.currentTarget.style.display = 'none'
-                  }}
-                />
-              </div>
-            </div>
             <h1 className="text-3xl font-black bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/60 tracking-tight mb-2">Maheshwari Marble</h1>
+
             <p className="text-muted-foreground font-medium">Elevating your marble inventory management</p>
           </div>
 
